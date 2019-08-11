@@ -51,8 +51,13 @@ end
 
 def runner
   welcome 
-  initial_round
+  hand = initial_round
   loop
-  if hit? > 21
+    if hand > 21
+      end_game(hand)
+      break
+    else
+      hand = hit?
+    end
 end
     
