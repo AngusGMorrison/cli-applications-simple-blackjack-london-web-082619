@@ -59,5 +59,6 @@ def runner
     else
       hand = hit?
     end
+  end
 end
     
