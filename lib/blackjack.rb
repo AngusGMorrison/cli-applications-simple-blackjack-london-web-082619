@@ -52,7 +52,7 @@ end
 def runner
   welcome 
   hand = initial_round
-  loop
+  loop do
     if hand > 21
       end_game(hand)
       break
