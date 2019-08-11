@@ -58,6 +58,7 @@ def runner
       break
     else
       hand = hit?(hand)
+      display_card_total
     end
   end
 end
