@@ -57,7 +57,7 @@ def runner
       end_game(hand)
       break
     else
-      hand = hit?
+      hand = hit?(hand)
     end
   end
 end
